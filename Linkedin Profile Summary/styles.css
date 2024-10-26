@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #0073b1;
+}
+
+.profile-input {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-input input {
+    padding: 10px;
+    width: 70%;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+}
+
+.profile-input button {
+    padding: 10px 20px;
+    background-color: #0073b1;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+section {
+    margin-top: 20px;
+}
+
+h2, h3 {
+    color: #0073b1;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}

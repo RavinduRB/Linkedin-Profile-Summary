@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Profile Summary Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>LinkedIn Profile Summary Viewer</h1>
+
+        <!-- Profile Retrieval Form -->
+        <div class="profile-input">
+            <input type="text" id="profileUrl" placeholder="Enter LinkedIn Profile URL">
+            <button id="fetchProfile">Fetch Profile</button>
+            <div id="loading" style="display: none;">Loading...</div>
+            <div id="error" style="display: none; color: red;"></div>
+        </div>
+
+        <!-- Profile Overview Display -->
+        <section id="profileOverview">
+            <h2>About</h2>
+            <p id="about"></p>
+
+            <h3>Connections & Followers (Last 30 days)</h3>
+            <canvas id="followersChart" width="400" height="200"></canvas>
+        </section>
+
+        <!-- Activity and Engagement Analysis -->
+        <section id="activityEngagement">
+            <h3>Profile Views</h3>
+            <canvas id="profileViewsChart" width="400" height="200"></canvas>
+
+            <h3>Post Impressions</h3>
+            <canvas id="postImpressionsChart" width="400" height="200"></canvas>
+
+            <h3>Search Appearances</h3>
+            <canvas id="searchAppearancesChart" width="400" height="200"></canvas>
+        </section>
+
+        <!-- Experience, Education, and Projects -->
+        <section id="experienceEducation">
+            <h3>Experience</h3>
+            <ul id="experienceList"></ul>
+
+            <h3>Education</h3>
+            <ul id="educationList"></ul>
+
+            <h3>Projects</h3>
+            <ul id="projectsList"></ul>
+        </section>
+
+        <!-- Skills, Honors, and Awards -->
+        <section id="skillsHonors">
+            <h3>Skills</h3>
+            <ul id="skillsList"></ul>
+
+            <h3>Honors & Awards</h3>
+            <ul id="honorsAwardsList"></ul>
+        </section>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

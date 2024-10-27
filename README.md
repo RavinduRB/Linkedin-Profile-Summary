@@ -1,4 +1,4 @@
-Based on the updated requirements, here are the refined **functional** and **non-functional requirements** for a **LinkedIn profile summary view application**, built with **HTML, CSS, JavaScript, and PHP**. This app will allow users to share a summary of their LinkedIn profile through a link, displaying details such as their professional background, recent activities, connections, and more.
+# There are some small errors in this application.
 
 ---
 
